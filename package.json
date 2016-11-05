@@ -1,10 +1,22 @@
 {
-  "name": "npm-express-app",
-  "version": "0.0.0",
-  "private": true,
+  "name": "tayutaedomo-express-app",
+  "version": "1.0.0",
+  "description": "Try to create a npm package of express app",
+  "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tayutaedomo/npm-express-app.git"
+  },
+  "author": "Tayutaedomo <tayutaedomo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tayutaedomo/npm-express-app/issues"
+  },
+  "homepage": "https://github.com/tayutaedomo/npm-express-app#readme",
   "dependencies": {
     "body-parser": "~1.15.2",
     "cookie-parser": "~1.4.3",
